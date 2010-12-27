@@ -1,0 +1,472 @@
+====================================
+Types potentially sent from browser:
+====================================
+
+Reachable types computed on: Sun Dec 26 03:54:12 GMT 2010
+com.google.gwt.core.client.impl.SerializableThrowable
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable from field 'dummy' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.google.gwt.http.client.RequestException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.http.client.RequestException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.google.gwt.json.client.JSONException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.json.client.JSONException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.google.gwt.user.client.rpc.InvocationException
+   Serialization status
+      Field serializable
+   Path
+      'com.google.gwt.user.client.rpc.InvocationException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.ServiceDefTarget.NoServiceEntryPointSpecifiedException'
+      'com.google.gwt.user.client.rpc.ServiceDefTarget.NoServiceEntryPointSpecifiedException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.google.gwt.user.client.rpc.SerializableException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.SerializableException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.google.gwt.user.client.rpc.SerializationException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.SerializationException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.google.gwt.user.client.rpc.ServiceDefTarget.NoServiceEntryPointSpecifiedException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.ServiceDefTarget.NoServiceEntryPointSpecifiedException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.gwtplatform.dispatch.shared.ActionException
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.ActionException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.gwtplatform.dispatch.shared.ServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.ServiceException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.gwtplatform.dispatch.shared.UnsupportedActionException
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.UnsupportedActionException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+com.gwtplatform.mvp.client.proxy.TokenFormatException
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.mvp.client.proxy.TokenFormatException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+int
+   Serialization status
+      Not serializable
+   Path
+      'int' is reachable from field 'lineNumber' of type 'java.lang.StackTraceElement'
+      'java.lang.StackTraceElement' is reachable as a subtype of type 'class java.lang.StackTraceElement'
+      Type 'java.lang.StackTraceElement' is reachable from array type 'java.lang.StackTraceElement[]'
+      'java.lang.StackTraceElement[]' is reachable from field 'stackTrace' of type 'com.google.gwt.core.client.impl.SerializableThrowable'
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable as a subtype of type 'class com.google.gwt.core.client.impl.SerializableThrowable'
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable from field 'dummy' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.io.IOException
+   Serialization status
+      Instantiable
+   Path
+      'java.io.IOException' is reachable as a supertype of type 'class java.io.UnsupportedEncodingException'
+      'java.io.UnsupportedEncodingException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.io.UnsupportedEncodingException
+   Serialization status
+      Instantiable
+   Path
+      'java.io.UnsupportedEncodingException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.ArithmeticException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.ArithmeticException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.ArrayIndexOutOfBoundsException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.ArrayIndexOutOfBoundsException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.ArrayStoreException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.ArrayStoreException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.AssertionError
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.AssertionError' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.ClassCastException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.ClassCastException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.Error
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Error' is reachable as a supertype of type 'class java.lang.AssertionError'
+      'java.lang.AssertionError' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.Exception
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.IllegalArgumentException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.IllegalArgumentException' is reachable as a supertype of type 'class java.lang.NumberFormatException'
+      'java.lang.NumberFormatException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.IllegalStateException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.IllegalStateException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.IndexOutOfBoundsException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.IndexOutOfBoundsException' is reachable as a supertype of type 'class java.lang.StringIndexOutOfBoundsException'
+      'java.lang.StringIndexOutOfBoundsException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.NegativeArraySizeException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.NegativeArraySizeException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.NullPointerException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.NullPointerException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.NumberFormatException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.NumberFormatException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.RuntimeException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.StackTraceElement
+   Serialization status
+      Instantiable
+   Path
+      Type 'java.lang.StackTraceElement' is reachable from array type 'java.lang.StackTraceElement[]'
+      'java.lang.StackTraceElement[]' is reachable from field 'stackTrace' of type 'com.google.gwt.core.client.impl.SerializableThrowable'
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable as a subtype of type 'class com.google.gwt.core.client.impl.SerializableThrowable'
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable from field 'dummy' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.StackTraceElement[]
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.StackTraceElement[]' is reachable from field 'stackTrace' of type 'com.google.gwt.core.client.impl.SerializableThrowable'
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable as a subtype of type 'class com.google.gwt.core.client.impl.SerializableThrowable'
+      'com.google.gwt.core.client.impl.SerializableThrowable' is reachable from field 'dummy' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String'
+
+java.lang.StringIndexOutOfBoundsException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.StringIndexOutOfBoundsException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.Throwable
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.UnsupportedOperationException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.UnsupportedOperationException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.annotation.AnnotationFormatError
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.annotation.AnnotationFormatError' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.lang.annotation.AnnotationTypeMismatchException
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.annotation.AnnotationTypeMismatchException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.security.DigestException
+   Serialization status
+      Instantiable
+   Path
+      'java.security.DigestException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.security.GeneralSecurityException
+   Serialization status
+      Instantiable
+   Path
+      'java.security.GeneralSecurityException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.security.NoSuchAlgorithmException
+   Serialization status
+      Instantiable
+   Path
+      'java.security.NoSuchAlgorithmException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.util.ConcurrentModificationException
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ConcurrentModificationException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.util.EmptyStackException
+   Serialization status
+      Instantiable
+   Path
+      'java.util.EmptyStackException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.util.NoSuchElementException
+   Serialization status
+      Instantiable
+   Path
+      'java.util.NoSuchElementException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.util.TooManyListenersException
+   Serialization status
+      Instantiable
+   Path
+      'java.util.TooManyListenersException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.util.logging.Level
+   Serialization status
+      Instantiable
+   Path
+      'java.util.logging.Level' is reachable from field 'level' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+java.util.logging.LogRecord
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.util.logging.LogRecord'
+
+long
+   Serialization status
+      Not serializable
+   Path
+      'long' is reachable from field 'millis' of type 'java.util.logging.LogRecord'
+      'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
+      Started from 'java.util.logging.LogRecord'
+
+===================================
+Types potentially sent from server:
+===================================
+
+Reachable types computed on: Sun Dec 26 03:54:12 GMT 2010
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+

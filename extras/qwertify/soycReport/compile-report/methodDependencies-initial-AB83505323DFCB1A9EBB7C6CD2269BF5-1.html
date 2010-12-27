@@ -1,0 +1,2733 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">
+function show(elementName)
+{
+hp = document.getElementById(elementName);
+hp.style.visibility = "Visible";
+}
+function hide(elementName)
+{
+hp = document.getElementById(elementName);
+hp.style.visibility = "Hidden";
+}
+</script>
+<title>
+Method Dependencies for Initially Live Code
+</title>
+<style type="text/css" media="screen">
+@import url('goog.css');
+@import url('inlay.css');
+@import url('soyc.css');
+</style>
+</head>
+<body>
+<div class="g-doc">
+<div id="hd" class="g-section g-tpl-50-50 g-split">
+<div class="g-unit g-first">
+<p>
+<a href="index.html" id="gwt-logo" class="soyc-ir"><span>Google Web Toolkit</span></a>
+</p>
+</div>
+<div class="g-unit">
+</div>
+</div>
+<div id="soyc-appbar-lrg">
+<div class="g-section g-tpl-75-25 g-split">
+<div class="g-unit g-first">
+<h1>Method Dependencies for Initially Live Code</h1>
+</div>
+<div class="g-unit"></div>
+</div>
+</div>
+<div id="bd">
+<h2>Showing Package: com.gwtplatform.mvp.client.proxy</h2>
+<a name="com.gwtplatform.mvp.client.proxy.GetPlaceTitleEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.GetPlaceTitleEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.GetPlaceTitleEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$bind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.GetPlaceTitleHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.GetPlaceTitleHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.GetPlaceTitleHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$bind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.LockInteractionEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.LockInteractionEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$lock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$getLock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionEvent::$dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.LockInteractionEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionEvent::LockInteractionEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$lock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$getLock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionEvent::dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionEvent::getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$lock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$getLock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionEvent::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.LockInteractionHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.LockInteractionHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.LockInteractionHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.NavigationEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.NavigationEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.NavigationEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.NavigationEvent::NavigationEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.NavigationEvent::dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.NavigationEvent::getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.NavigationEvent::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.Place"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.Place</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.Place</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.Place::equals</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.Place::getNameToken</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceImpl::$equals</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::equals</li>
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.Place::hashCode</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.Place::toString</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.shared.ValueCodex$Type::encode</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$makePayload</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$doFire</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$fire</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$fire</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceImpl"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceImpl</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceImpl::$matchesRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$matchesRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::$equals</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::equals</li>
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::$getNameToken</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::$hashCode</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::$matchesRequest</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$matchesRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::$toString</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::PlaceImpl</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::equals</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::getNameToken</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::hashCode</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceImpl::toString</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceManager"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceManager</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManager</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$1"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$1::PlaceManagerImpl$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$1::execute</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$unlock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$2"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$2</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$2</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.Window$ClosingEvent::$dispatch</li>
+<li>com.google.gwt.user.client.Window$ClosingEvent::dispatch</li>
+<li>com.google.gwt.user.client.Window::onClosing</li>
+<li>com.google.gwt.user.client.impl.WindowImpl::$initWindowCloseHandler</li>
+<li>com.google.gwt.user.client.Window::maybeInitializeCloseHandlers</li>
+<li>com.google.gwt.user.client.Window::addCloseHandler</li>
+<li>com.google.gwt.user.client.Timer::$clinit</li>
+<li>com.google.gwt.user.client.CommandExecutor::$$init</li>
+<li>com.google.gwt.user.client.CommandExecutor::CommandExecutor</li>
+<li>com.google.gwt.user.client.DeferredCommand::$clinit</li>
+<li>com.google.gwt.user.client.DeferredCommand::addCommand</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$2::PlaceManagerImpl$2</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.Window$ClosingEvent::$dispatch</li>
+<li>com.google.gwt.user.client.Window$ClosingEvent::dispatch</li>
+<li>com.google.gwt.user.client.Window::onClosing</li>
+<li>com.google.gwt.user.client.impl.WindowImpl::$initWindowCloseHandler</li>
+<li>com.google.gwt.user.client.Window::maybeInitializeCloseHandlers</li>
+<li>com.google.gwt.user.client.Window::addCloseHandler</li>
+<li>com.google.gwt.user.client.Timer::$clinit</li>
+<li>com.google.gwt.user.client.CommandExecutor::$$init</li>
+<li>com.google.gwt.user.client.CommandExecutor::CommandExecutor</li>
+<li>com.google.gwt.user.client.DeferredCommand::$clinit</li>
+<li>com.google.gwt.user.client.DeferredCommand::addCommand</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$2::execute</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.Window$ClosingEvent::$dispatch</li>
+<li>com.google.gwt.user.client.Window$ClosingEvent::dispatch</li>
+<li>com.google.gwt.user.client.Window::onClosing</li>
+<li>com.google.gwt.user.client.impl.WindowImpl::$initWindowCloseHandler</li>
+<li>com.google.gwt.user.client.Window::maybeInitializeCloseHandlers</li>
+<li>com.google.gwt.user.client.Window::addCloseHandler</li>
+<li>com.google.gwt.user.client.Timer::$clinit</li>
+<li>com.google.gwt.user.client.CommandExecutor::$$init</li>
+<li>com.google.gwt.user.client.CommandExecutor::CommandExecutor</li>
+<li>com.google.gwt.user.client.DeferredCommand::$clinit</li>
+<li>com.google.gwt.user.client.DeferredCommand::addCommand</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$2::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$3"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$3</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$3</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$3::PlaceManagerImpl$3</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$3::execute</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl$3::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceManagerImpl"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceManagerImpl</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$error</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$fireEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$lock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$getLock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$getLock</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$lock</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$getLock</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$startError</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$error</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$unlock</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$updateHistory</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceRequest"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceRequest</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequest::$getParameter</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceToken</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toHistoryToken</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$updateHistory</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest::$getParameter</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceToken</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toHistoryToken</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$updateHistory</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest::$matchesNameToken</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceImpl::$matchesRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$matchesRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest::PlaceRequest</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequest</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequestHierarchy</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest::equals</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequest</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequestHierarchy</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequest::hashCode</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequest</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequestHierarchy</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::PlaceRequestInternalEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$doRevealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$revealPlace</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.PlaceRequestInternalHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.PlaceRequestInternalHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$bind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.Proxy"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.Proxy</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.Proxy</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyFailureHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyFailureHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyFailureHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$DefaultProxyFailureHandler$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getProxyFailureHandler</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyImpl"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyImpl</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyImpl</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyImpl::$getPresenter</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyImpl::$getPresenter</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyImpl::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlace"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlace</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlace</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::ProxyPlaceAbstract$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$bind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$2"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$2</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$2</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$bind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$2::ProxyPlaceAbstract$2</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$bind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$2::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::ProxyPlaceAbstract$3$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::execute</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::ProxyPlaceAbstract$3</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$matchesRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$fireEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$manualReveal</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::execute</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$manualReveal</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::execute</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$matchesRequest</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::equals</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::getNameToken</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.PlaceImpl::$equals</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::equals</li>
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::hashCode</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.Place::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::toString</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.shared.ValueCodex$Type::encode</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$makePayload</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$doFire</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$fire</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$fire</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyPlaceImpl"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyPlaceImpl</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceImpl</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyPlaceImpl::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ProxyRaw"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ProxyRaw</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ProxyRaw</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.Proxy::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlace::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ResetPresentersEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ResetPresentersEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ResetPresentersEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$manualReveal</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::execute</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ResetPresentersEvent::ResetPresentersEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$manualReveal</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::execute</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ResetPresentersEvent::dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ResetPresentersEvent::getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$manualReveal</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3$1::execute</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$3::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract::$handleRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.ProxyPlaceAbstract$1::$onPlaceRequest</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceRequestInternalEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ResetPresentersEvent::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.ResetPresentersHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.ResetPresentersHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.ResetPresentersHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealContentEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealContentEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent::RevealContentEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent::getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentEvent::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealContentHandler$1$1"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealContentHandler$1$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1::onSuccess</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1$1::RevealContentHandler$1$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1::onSuccess</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1$1::execute</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1::onSuccess</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealContentHandler$1"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealContentHandler$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1::RevealContentHandler$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler$1::onSuccess</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::$dispatch</li>
+<li>com.gwtplatform.mvp.client.proxy.RevealContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealContentHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealContentHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler::RevealContentHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealContentHandler::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealRootContentEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealRootContentEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$com$qwertify$client$presenter$MainPagePresenter_MainPagePresenter_methodInjection</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent::$dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent::dispatch</li>
+<li>com.qwertify.client.presenter.MainPagePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$com$qwertify$client$presenter$MainPagePresenter_MainPagePresenter_methodInjection</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent::RevealRootContentEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$com$qwertify$client$presenter$MainPagePresenter_MainPagePresenter_methodInjection</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent::dispatch</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$com$qwertify$client$presenter$MainPagePresenter_MainPagePresenter_methodInjection</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent::getAssociatedType</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$com$qwertify$client$presenter$MainPagePresenter_MainPagePresenter_methodInjection</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentEvent::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.presenter.MainPagePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$com$qwertify$client$presenter$MainPagePresenter_MainPagePresenter_methodInjection</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealRootContentHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealRootContentHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootContentHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.RootPresenter::onBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootLayoutContentHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealRootPopupContentEvent"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealRootPopupContentEvent</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootPopupContentEvent</a>
+<ul class="soyc-call-stack-list">
+<li>com.gwtplatform.mvp.client.RootPresenter::onBind</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.RevealRootPopupContentHandler"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.RevealRootPopupContentHandler</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.RevealRootPopupContentHandler</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.TokenFormatException"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.TokenFormatException</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.TokenFormatException</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequest</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequestHierarchy</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.TokenFormatException::TokenFormatException</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequest</li>
+<li>com.qwertify.client.QwertifyTokenFormatter::$toPlaceRequestHierarchy</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::$onValueChange</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::$dispatch</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::dispatch</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$doFire</li>
+<li>com.google.gwt.event.shared.SimpleEventBus::$fireEvent</li>
+<li>com.google.gwt.event.shared.HandlerManager::$fireEvent</li>
+<li>com.google.gwt.event.logical.shared.ValueChangeEvent::fire</li>
+<li>com.google.gwt.user.client.impl.HistoryImpl::newItemOnEvent</li>
+<li>com.google.gwt.user.client.impl.HistoryImplTimer::$init</li>
+<li>com.google.gwt.user.client.History::$clinit</li>
+<li>com.gwtplatform.mvp.client.proxy.PlaceManagerImpl::PlaceManagerImpl</li>
+<li>com.qwertify.client.QwertifyPlaceManager::QwertifyPlaceManager</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.TokenFormatException::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.gwtplatform.mvp.client.proxy.TokenFormatter"><h3 class="soyc-class-header">Class: com.gwtplatform.mvp.client.proxy.TokenFormatter</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.gwtplatform.mvp.client.proxy.TokenFormatter</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.gin.ClientModule::provideQwertifyTokenFormatter</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

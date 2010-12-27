@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">
+function show(elementName)
+{
+hp = document.getElementById(elementName);
+hp.style.visibility = "Visible";
+}
+function hide(elementName)
+{
+hp = document.getElementById(elementName);
+hp.style.visibility = "Hidden";
+}
+</script>
+<title>
+Method Dependencies for Initially Live Code
+</title>
+<style type="text/css" media="screen">
+@import url('goog.css');
+@import url('inlay.css');
+@import url('soyc.css');
+</style>
+</head>
+<body>
+<div class="g-doc">
+<div id="hd" class="g-section g-tpl-50-50 g-split">
+<div class="g-unit g-first">
+<p>
+<a href="index.html" id="gwt-logo" class="soyc-ir"><span>Google Web Toolkit</span></a>
+</p>
+</div>
+<div class="g-unit">
+</div>
+</div>
+<div id="soyc-appbar-lrg">
+<div class="g-section g-tpl-75-25 g-split">
+<div class="g-unit g-first">
+<h1>Method Dependencies for Initially Live Code</h1>
+</div>
+<div class="g-unit"></div>
+</div>
+</div>
+<div id="bd">
+<h2>Showing Package: com.qwertify.client.ui.resources</h2>
+<a name="com.qwertify.client.ui.resources.Resources$Style"><h3 class="soyc-class-header">Class: com.qwertify.client.ui.resources.Resources$Style</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources$Style</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator::$clinit</li>
+<li>com.qwertify.client.ui.resources.Resources::$clinit</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<a name="com.qwertify.client.ui.resources.Resources"><h3 class="soyc-class-header">Class: com.qwertify.client.ui.resources.Resources</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<a name="com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1"><h3 class="soyc-class-header">Class: com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::Resources_default_StaticClientBundleGenerator$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator::$clinit</li>
+<li>com.qwertify.client.ui.resources.Resources::$clinit</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator"><h3 class="soyc-class-header">Class: com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.ui.resources.Resources::$clinit</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

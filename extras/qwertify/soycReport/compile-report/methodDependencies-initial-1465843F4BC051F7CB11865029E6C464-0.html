@@ -1,0 +1,436 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">
+function show(elementName)
+{
+hp = document.getElementById(elementName);
+hp.style.visibility = "Visible";
+}
+function hide(elementName)
+{
+hp = document.getElementById(elementName);
+hp.style.visibility = "Hidden";
+}
+</script>
+<title>
+Method Dependencies for Initially Live Code
+</title>
+<style type="text/css" media="screen">
+@import url('goog.css');
+@import url('inlay.css');
+@import url('soyc.css');
+</style>
+</head>
+<body>
+<div class="g-doc">
+<div id="hd" class="g-section g-tpl-50-50 g-split">
+<div class="g-unit g-first">
+<p>
+<a href="index.html" id="gwt-logo" class="soyc-ir"><span>Google Web Toolkit</span></a>
+</p>
+</div>
+<div class="g-unit">
+</div>
+</div>
+<div id="soyc-appbar-lrg">
+<div class="g-section g-tpl-75-25 g-split">
+<div class="g-unit g-first">
+<h1>Method Dependencies for Initially Live Code</h1>
+</div>
+<div class="g-unit"></div>
+</div>
+</div>
+<div id="bd">
+<h2>Showing Package: com.google.gwt.editor.client.impl</h2>
+<a name="com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext"><h3 class="soyc-class-header">Class: com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext::AbstractAutoBean$OneShotContext</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$cloneBeanAndCollections</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$cloneBeanAndCollections</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext::AbstractAutoBean$OneShotContext</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$cloneBeanAndCollections</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean$OneShotContext::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$cloneBeanAndCollections</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.editor.client.impl.AbstractAutoBean"><h3 class="soyc-class-header">Class: com.google.gwt.editor.client.impl.AbstractAutoBean</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.shared.dto.proxy.EmployeeProxyAutoBean$1::$setName</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::$checkWrapped</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.shared.dto.proxy.EmployeeProxyAutoBean$1::$setName</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::$create</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::$getTag</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.shared.dto.proxy.EmployeeProxyAutoBean$2::hashCode</li>
+<li>com.google.gwt.editor.client.impl.AbstractAutoBean::AbstractAutoBean</li>
+<li>com.qwertify.shared.dto.proxy.EmployeeProxyAutoBean::EmployeeProxyAutoBean</li>
+<li>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::$create</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::$setTag</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.client.impl.EntityProxyCategory::__intercept</li>
+<li>com.qwertify.shared.dto.proxy.EmployeeProxyAutoBean$1::stableId</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::$traverse</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$cloneBeanAndCollections</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::AbstractAutoBean</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.shared.dto.proxy.EmployeeProxyAutoBean::EmployeeProxyAutoBean</li>
+<li>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::$create</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBean::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.editor.client.impl.AbstractAutoBeanFactory$Creator"><h3 class="soyc-class-header">Class: com.google.gwt.editor.client.impl.AbstractAutoBeanFactory$Creator</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory$Creator</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.shared.QwertifyRequestFactoryImpl_FactoryImpl::QwertifyRequestFactoryImpl_FactoryImpl</li>
+<li>com.qwertify.shared.QwertifyRequestFactoryImpl::$clinit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.editor.client.impl.AbstractAutoBeanFactory"><h3 class="soyc-class-header">Class: com.google.gwt.editor.client.impl.AbstractAutoBeanFactory</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::AbstractAutoBeanFactory</li>
+<li>com.qwertify.shared.QwertifyRequestFactoryImpl_FactoryImpl::QwertifyRequestFactoryImpl_FactoryImpl</li>
+<li>com.qwertify.shared.QwertifyRequestFactoryImpl::$clinit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::$create</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::$create</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::AbstractAutoBeanFactory</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.shared.QwertifyRequestFactoryImpl_FactoryImpl::QwertifyRequestFactoryImpl_FactoryImpl</li>
+<li>com.qwertify.shared.QwertifyRequestFactoryImpl::$clinit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactory::$createEntityProxy</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$create</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.editor.client.impl.AbstractAutoBeanFactory::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+</div>
+</body>
+</html>

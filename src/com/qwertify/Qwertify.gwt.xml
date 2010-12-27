@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='qwertify'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name="com.google.gwt.uibinder.UiBinder" />
+  <inherits name="com.google.gwt.inject.Inject" />
+	<inherits name="com.google.gwt.requestfactory.RequestFactory" />
+  
+  <inherits name="com.gwtplatform.mvp.Mvp" />
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.qwertify.client.Qwertify'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+  
+  <define-configuration-property name="gin.ginjector" is-multi-valued="false" />
+  <set-configuration-property name="gin.ginjector" value="com.qwertify.client.gin.ClientGinjector" />
+	
+  <set-configuration-property name="CssResource.obfuscationPrefix" value="Q2" /> 
+</module>

@@ -1,0 +1,481 @@
+====================================
+Types potentially sent from browser:
+====================================
+
+Reachable types computed on: Sun Dec 26 03:54:19 GMT 2010
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.LinkedList<E>'
+      'java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.Vector<E>'
+      'java.util.Vector<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'element' of type 'java.util.Collections.SingletonList<E>'
+      'java.util.Collections.SingletonList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E[]
+   Serialization status
+      Not serializable
+   Path
+      'E[]' is reachable from field 'array' of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.gwtplatform.dispatch.shared.Action<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Not serializable
+   Path
+      Started from 'com.gwtplatform.dispatch.shared.Action<com.gwtplatform.dispatch.shared.Result>'
+
+com.gwtplatform.dispatch.shared.Action<?>
+   Serialization status
+      Not serializable
+   Path
+      Started from 'com.gwtplatform.dispatch.shared.Action<?>'
+
+com.gwtplatform.dispatch.shared.ActionImpl<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.ActionImpl<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Action<?>'
+      Started from 'com.gwtplatform.dispatch.shared.Action<?>'
+
+com.gwtplatform.dispatch.shared.BatchResult
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.BatchResult[]
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.Result' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.Result
+   Serialization status
+      Not serializable
+   Path
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.Result[]
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.Result' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.UnsecuredActionImpl<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.UnsecuredActionImpl<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Action<?>'
+      Started from 'com.gwtplatform.dispatch.shared.Action<?>'
+
+int
+   Serialization status
+      Not serializable
+   Path
+      'int' is reachable from field 'size' of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Collections.EmptyList
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.EmptyList' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Collections.SingletonList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.SingletonList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.LinkedList.Node<E>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.LinkedList.Node<E>' is reachable from field 'header' of type 'java.util.LinkedList<E>'
+      'java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.List<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Stack<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Vector<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+===================================
+Types potentially sent from server:
+===================================
+
+Reachable types computed on: Sun Dec 26 03:54:19 GMT 2010
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.LinkedList<E>'
+      'java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'exposeElement' of type 'java.util.Vector<E>'
+      'java.util.Vector<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E
+   Serialization status
+      Not serializable
+   Path
+      'E' is reachable from field 'element' of type 'java.util.Collections.SingletonList<E>'
+      'java.util.Collections.SingletonList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+E[]
+   Serialization status
+      Not serializable
+   Path
+      'E[]' is reachable from field 'array' of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.gwtplatform.dispatch.shared.ActionException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.gwtplatform.dispatch.shared.ActionException'
+
+com.gwtplatform.dispatch.shared.BatchResult
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.BatchResult[]
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.Result' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.Result
+   Serialization status
+      Not serializable
+   Path
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.Result[]
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.Result' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+com.gwtplatform.dispatch.shared.ServiceException
+   Serialization status
+      Instantiable
+   Path
+      Started from 'com.gwtplatform.dispatch.shared.ServiceException'
+
+com.gwtplatform.dispatch.shared.UnsupportedActionException
+   Serialization status
+      Instantiable
+   Path
+      'com.gwtplatform.dispatch.shared.UnsupportedActionException' is reachable as a subtype of type 'class com.gwtplatform.dispatch.shared.ServiceException'
+      Started from 'com.gwtplatform.dispatch.shared.ServiceException'
+
+int
+   Serialization status
+      Not serializable
+   Path
+      'int' is reachable from field 'size' of type 'java.util.ArrayList<E>'
+      'java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Collections.EmptyList
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.EmptyList' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Collections.SingletonList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Collections.SingletonList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.LinkedList.Node<E>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.LinkedList.Node<E>' is reachable from field 'header' of type 'java.util.LinkedList<E>'
+      'java.util.LinkedList<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.List<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Not serializable
+   Path
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Stack<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+
+java.util.Vector<com.gwtplatform.dispatch.shared.Result>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<com.gwtplatform.dispatch.shared.Result>' is reachable as a subtype of type 'interface java.util.List<com.gwtplatform.dispatch.shared.Result>'
+      'java.util.List<com.gwtplatform.dispatch.shared.Result>' is reachable from field 'results' of type 'com.gwtplatform.dispatch.shared.BatchResult'
+      'com.gwtplatform.dispatch.shared.BatchResult' is reachable as a subtype of type 'interface com.gwtplatform.dispatch.shared.Result'
+      Started from 'com.gwtplatform.dispatch.shared.Result'
+

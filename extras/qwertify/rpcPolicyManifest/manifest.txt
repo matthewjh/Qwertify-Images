@@ -1,0 +1,4 @@
+# Module qwertify
+# RPC service class, partial path of RPC policy file
+com.gwtplatform.dispatch.client.DispatchService, 26E7A1967C9F2CFD79F4DB523818EE4B.gwt.rpc
+com.google.gwt.logging.shared.RemoteLoggingService, 16E5E06D618529AB7AAEDEA5777850CE.gwt.rpc
