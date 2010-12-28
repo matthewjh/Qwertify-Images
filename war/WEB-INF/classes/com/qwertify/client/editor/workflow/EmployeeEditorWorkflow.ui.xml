@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:q="urn:import:com.qwertify.client.ui.widget"
+	xmlns:e="urn:import:com.google.gwt.editor.ui.client"
+	xmlns:qe="urn:import:com.qwertify.client.editor">
+	
+	<ui:with field='res' type='com.qwertify.client.ui.resources.Resources'/>
+
+	<ui:style>
+	</ui:style>
+	
+	<g:HTMLPanel>
+		Editing an employee <br />
+		<qe:EmployeeEditor ui:field="editor" />
+		<div>
+			<q:Button ui:field="saveButton">Save</q:Button>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder>

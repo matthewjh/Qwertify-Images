@@ -1,6 +1,7 @@
 package com.qwertify.shared.dto.proxy;
 
 import com.google.gwt.requestfactory.shared.EntityProxy;
+import com.google.gwt.requestfactory.shared.EntityProxyId;
 import com.google.gwt.requestfactory.shared.ProxyFor;
 import com.qwertify.server.domain.Employee;
 
@@ -20,4 +21,6 @@ public interface EmployeeProxy extends EntityProxy {
 	void setJobTitle(String jobTitle);
 	
 	void setAge(int age);
+	
+	EntityProxyId<EmployeeProxy> stableId();
 }

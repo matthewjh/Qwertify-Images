@@ -23,11 +23,10 @@ a:focus {
 	-moz-outline-style: none;
 }
 
-.documentContainer {
-	padding-left: 20px;
-	padding-right: 20px;	
+.textbox {
+	border: solid 1px gray;
 }
 
-.sidebarContainer {
-	float: right;
+.button {
+	background-color: yellow;
 }

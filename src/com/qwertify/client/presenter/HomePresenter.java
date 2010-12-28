@@ -1,12 +1,9 @@
 package com.qwertify.client.presenter;
 
-import java.util.Set;
-
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.requestfactory.shared.Receiver;
 import com.google.gwt.requestfactory.shared.Request;
 import com.google.gwt.requestfactory.shared.ServerFailure;
-import com.google.gwt.requestfactory.shared.Violation;
 import com.google.gwt.user.client.Window;
 import com.google.inject.Inject;
 import com.gwtplatform.mvp.client.Presenter;
@@ -61,11 +58,6 @@ public class HomePresenter extends
 			@Override
 			public void onFailure(ServerFailure error) {
 				Window.alert(error.getExceptionType());
-			}
-			
-			@Override
-			public void onViolation(Set<Violation> errors) {
-				Window.alert(errors.toString());
 			}
 		});
 	}
