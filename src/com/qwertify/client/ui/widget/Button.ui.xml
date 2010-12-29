@@ -1,0 +1,42 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:q="urn:import:com.qwertify.client.ui.widget" xmlns:d="urn:import:com.google.gwt.dom.client">
+	
+	<ui:with field='res' type='com.qwertify.client.ui.resources.Resources'/>
+
+	<ui:style type="com.qwertify.client.ui.widget.Button.Style">
+		.base {
+			color: gray;
+			cursor: pointer;
+			padding: 3px 4px;
+			border: solid 1px navy;
+		}
+		
+		.defaultStyleBase {
+			color: gray;
+			cursor: pointer;
+			padding: 3px 4px;
+			border: solid 1px navy;
+		}
+		
+		.defaultStyleHover {
+			background-color: gray;
+			color: black;
+		}
+		
+		.defaultStyleFocus {
+			border: solid 1px black;
+		}
+		
+		.defaultStyleActive {
+			background-color: navy;
+			color: white;	
+		}
+	</ui:style>
+	
+	<g:HTMLPanel tag="span">
+		<div ui:field="buttonDiv" class="{style.base} {res.style.inlineBlock} {res.style.unselectable}" 
+				unselectable="on"></div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

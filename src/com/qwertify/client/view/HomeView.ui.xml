@@ -1,6 +1,8 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:qe="urn:import:com.qwertify.client.editor"
+	xmlns:q="urn:import:com.qwertify.client.ui.widget">
 	<g:HTMLPanel>
 		<h1>Home page</h1>
 		<p>This is the home page for this demonstration. You'll always get
@@ -52,5 +54,8 @@
 			placerat fringilla erat. Praesent non condimentum erat. Vestibulum
 			ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 			Curae;</p>
+			
+			<qe:EmployeeEditor ui:field="employeeEditor"></qe:EmployeeEditor>
+			<q:Button ui:field="saveButton" label="Save" />
 	</g:HTMLPanel>
 </ui:UiBinder> 

@@ -61,6 +61,29 @@ Method Dependencies for Initially Live Code
 </ul>
 </div>
 <div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.DOMImpl::$createInputElement</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.ui.TextBox::TextBox</li>
+<li>com.qwertify.client.ui.widget.TextBox::TextBox</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.DOMImpl::$createScriptElement</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.user.client.impl.WindowImplIE::$initHandler</li>
@@ -99,24 +122,12 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.user.client.impl.DOMImplTrident::$initEventSystem</li>
 <li>com.google.gwt.user.client.impl.DOMImpl::$maybeInitializeEventSystem</li>
 <li>com.google.gwt.user.client.DOM::sinkEvents</li>
-<li>com.google.gwt.user.client.ui.Widget::$onAttach</li>
-<li>com.google.gwt.user.client.ui.AttachDetachException$1::execute</li>
-<li>com.google.gwt.user.client.ui.AttachDetachException::tryCommand</li>
-<li>com.google.gwt.user.client.ui.Panel::doDetachChildren</li>
-<li>com.google.gwt.user.client.ui.Widget::$onDetach</li>
-<li>com.google.gwt.user.client.ui.Widget::$setParent</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::$remove</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::remove</li>
-<li>com.google.gwt.user.client.ui.WidgetCollection$WidgetIterator::remove</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::iterator</li>
-<li>com.google.gwt.user.client.ui.HasWidgets::$clinit</li>
-<li>com.google.gwt.user.client.ui.HasWidgets$ForIsWidget::$clinit</li>
-<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.HomeView::HomeView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.google.gwt.user.client.ui.Widget::$sinkEvents</li>
+<li>com.google.gwt.user.client.ui.Widget::$addDomHandler</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -160,14 +171,21 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.DOMImpl::$getNextSiblingElement</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.uibinder.client.UiBinderUtil::attachToDom</li>
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -180,14 +198,38 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.user.client.ui.ComplexPanel::remove</li>
 <li>com.google.gwt.user.client.ui.WidgetCollection$WidgetIterator::remove</li>
 <li>com.google.gwt.user.client.ui.ComplexPanel::iterator</li>
-<li>com.google.gwt.user.client.ui.HasWidgets::$clinit</li>
-<li>com.google.gwt.user.client.ui.HasWidgets$ForIsWidget::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
 <li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
 <li>com.qwertify.client.view.HomeView::HomeView</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.DOMImpl::$getTabIndex</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.ui.FocusWidget::onAttach</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -212,7 +254,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -229,7 +271,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -253,7 +295,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -272,7 +314,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -292,7 +334,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -356,7 +398,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -375,7 +417,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -402,29 +444,14 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.DOMImplTrident::$eventGetRelatedTarget</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.user.client.ui.Widget::$onBrowserEvent</li>
-<li>com.google.gwt.user.client.ui.Widget::onBrowserEvent</li>
-<li>com.google.gwt.user.client.DOM::dispatchEvent</li>
-<li>com.google.gwt.user.client.impl.DOMImplTrident::$initEventSystem</li>
-<li>com.google.gwt.user.client.impl.DOMImpl::$maybeInitializeEventSystem</li>
-<li>com.google.gwt.user.client.DOM::sinkEvents</li>
-<li>com.google.gwt.user.client.ui.Widget::$onAttach</li>
-<li>com.google.gwt.user.client.ui.AttachDetachException$1::execute</li>
-<li>com.google.gwt.user.client.ui.AttachDetachException::tryCommand</li>
-<li>com.google.gwt.user.client.ui.Panel::doDetachChildren</li>
-<li>com.google.gwt.user.client.ui.Widget::$onDetach</li>
-<li>com.google.gwt.user.client.ui.Widget::$setParent</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::$remove</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::remove</li>
-<li>com.google.gwt.user.client.ui.WidgetCollection$WidgetIterator::remove</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::iterator</li>
-<li>com.google.gwt.user.client.ui.HasWidgets::$clinit</li>
-<li>com.google.gwt.user.client.ui.HasWidgets$ForIsWidget::$clinit</li>
+<li>com.google.gwt.user.client.ui.Composite::onBrowserEvent</li>
+<li>com.google.gwt.user.client.EventListener::$clinit</li>
 <li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
 <li>com.qwertify.client.view.HomeView::HomeView</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -439,29 +466,14 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.DOMImplTrident::$isOrHasChild</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.user.client.ui.Widget::$onBrowserEvent</li>
-<li>com.google.gwt.user.client.ui.Widget::onBrowserEvent</li>
-<li>com.google.gwt.user.client.DOM::dispatchEvent</li>
-<li>com.google.gwt.user.client.impl.DOMImplTrident::$initEventSystem</li>
-<li>com.google.gwt.user.client.impl.DOMImpl::$maybeInitializeEventSystem</li>
-<li>com.google.gwt.user.client.DOM::sinkEvents</li>
-<li>com.google.gwt.user.client.ui.Widget::$onAttach</li>
-<li>com.google.gwt.user.client.ui.AttachDetachException$1::execute</li>
-<li>com.google.gwt.user.client.ui.AttachDetachException::tryCommand</li>
-<li>com.google.gwt.user.client.ui.Panel::doDetachChildren</li>
-<li>com.google.gwt.user.client.ui.Widget::$onDetach</li>
-<li>com.google.gwt.user.client.ui.Widget::$setParent</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::$remove</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::remove</li>
-<li>com.google.gwt.user.client.ui.WidgetCollection$WidgetIterator::remove</li>
-<li>com.google.gwt.user.client.ui.ComplexPanel::iterator</li>
-<li>com.google.gwt.user.client.ui.HasWidgets::$clinit</li>
-<li>com.google.gwt.user.client.ui.HasWidgets$ForIsWidget::$clinit</li>
+<li>com.google.gwt.user.client.ui.Composite::onBrowserEvent</li>
+<li>com.google.gwt.user.client.EventListener::$clinit</li>
 <li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
 <li>com.qwertify.client.view.HomeView::HomeView</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -505,14 +517,17 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Document::$createUniqueId</a>
 <ul class="soyc-call-stack-list">
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -624,14 +639,21 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Document::$getElementById</a>
 <ul class="soyc-call-stack-list">
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -753,16 +775,25 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Element::$getPropertyString</a>
 <ul class="soyc-call-stack-list">
-<li>com.google.gwt.user.client.ui.Image$State::$onLoad</li>
-<li>com.google.gwt.user.client.ui.Image::onLoad</li>
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.user.client.ui.ValueBoxBase::$getValueOrThrow</li>
+<li>com.google.gwt.user.client.ui.ValueBoxBase::$getValue</li>
+<li>com.google.gwt.user.client.ui.TextBoxBase::$getValue</li>
+<li>com.google.gwt.user.client.ui.TextBoxBase::getValue</li>
+<li>com.google.gwt.user.client.TakesValue::$clinit</li>
+<li>com.google.gwt.user.client.ui.HasValue::$clinit</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -791,6 +822,49 @@ Method Dependencies for Initially Live Code
 </ul>
 </div>
 <div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Element::$removeAttribute</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Element::$setAttribute</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.ui.widget.Button::Button</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Element::$setInnerHTML</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.dom.client.DOMImplTrident::$createElement</li>
@@ -808,15 +882,45 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Element::$setPropertyString</a>
 <ul class="soyc-call-stack-list">
-<li>com.google.gwt.user.client.ui.Image::onBrowserEvent</li>
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.user.client.ui.ValueBoxBase::$setText</li>
+<li>com.google.gwt.user.client.ui.ValueBoxBase::setValue</li>
+<li>com.google.gwt.user.client.TakesValue::$clinit</li>
+<li>com.google.gwt.user.client.ui.HasValue::$clinit</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Element::$setTabIndex</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.ui.FocusWidget::onAttach</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -837,7 +941,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -853,7 +957,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -874,7 +978,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -898,7 +1002,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -921,7 +1025,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -945,7 +1049,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -968,7 +1072,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -992,7 +1096,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1015,7 +1119,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1038,7 +1142,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1061,7 +1165,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1084,7 +1188,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1107,7 +1211,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1129,7 +1233,7 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$2::get</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
@@ -1179,14 +1283,21 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Node::$getParentNode</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.uibinder.client.UiBinderUtil::orphan</li>
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -1195,14 +1306,21 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Node::$insertBefore</a>
 <ul class="soyc-call-stack-list">
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -1226,13 +1344,22 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Node::$removeFromParent</a>
 <ul class="soyc-call-stack-list">
-<li>com.google.gwt.layout.client.LayoutImpl::$removeChild</li>
-<li>com.google.gwt.layout.client.Layout::$removeChild</li>
-<li>com.google.gwt.user.client.ui.LayoutPanel::remove</li>
-<li>com.google.gwt.user.client.ui.RootLayoutPanel::get</li>
-<li>com.gwtplatform.mvp.client.RootPresenter$RootView::setInSlot</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$RootView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$gwtplatform$mvp$client$RootPresenter$_annotation$$none$$</li>
+<li>com.google.gwt.user.client.ui.HTMLPanel::HTMLPanel</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -1242,14 +1369,21 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Node::$replaceChild</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.user.client.ui.HTMLPanel::$addAndReplaceElement</li>
-<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
-<li>com.qwertify.client.view.MainPageView::MainPageView</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator_BinderImpl::$createAndBindUi</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::ValueBoxEditorDecorator</li>
+<li>com.qwertify.client.editor.EmployeeEditor_BinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.editor.EmployeeEditor::EmployeeEditor</li>
+<li>com.qwertify.client.view.HomeView_HomeViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.HomeView::HomeView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$HomeView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
-<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
 <li>com.qwertify.client.Qwertify::Qwertify</li>
@@ -1321,6 +1455,428 @@ Method Dependencies for Initially Live Code
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$QwertifyPlaceManager$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$getPlaceManager</li>
 <li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<a name="com.google.gwt.dom.client.Style$Display$1"><h3 class="soyc-class-header">Class: com.google.gwt.dom.client.Style$Display$1</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$1::Style$Display$1</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$1::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.dom.client.Style$Display$2"><h3 class="soyc-class-header">Class: com.google.gwt.dom.client.Style$Display$2</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$2</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$2::Style$Display$2</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$2::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.dom.client.Style$Display$3"><h3 class="soyc-class-header">Class: com.google.gwt.dom.client.Style$Display$3</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$3</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$3::Style$Display$3</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$3::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.dom.client.Style$Display$4"><h3 class="soyc-class-header">Class: com.google.gwt.dom.client.Style$Display$4</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$4</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$4::Style$Display$4</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display$4::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<a name="com.google.gwt.dom.client.Style$Display"><h3 class="soyc-class-header">Class: com.google.gwt.dom.client.Style$Display</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display::Style$Display</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display$1::Style$Display$1</li>
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.Style$Display::values</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.Style$Display::getClass</li>
+<li>com.google.gwt.dom.client.Style$Display::$clinit</li>
+<li>com.google.gwt.editor.ui.client.ValueBoxEditorDecorator::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$showErrors</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$flush</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$flush</li>
+<li>com.qwertify.client.presenter.HomePresenter$1::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
+<li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
 </ul>
 </div>
 <a name="com.google.gwt.dom.client.Style$HasCssName"><h3 class="soyc-class-header">Class: com.google.gwt.dom.client.Style$HasCssName</a></h3>
@@ -1662,13 +2218,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -1732,13 +2290,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -1802,13 +2362,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -1872,13 +2434,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -1942,13 +2506,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2052,13 +2618,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2139,13 +2707,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2226,13 +2796,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2313,13 +2885,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2400,13 +2974,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2487,13 +3063,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2574,13 +3152,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2661,13 +3241,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2748,13 +3330,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2835,13 +3419,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -2991,6 +3577,7 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.StyleInjector$1</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.dom.client.StyleInjector::$clinit</li>
+<li>com.google.gwt.dom.client.StyleInjector::inject</li>
 <li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</li>
 <li>com.qwertify.client.Qwertify::$onModuleLoad</li>
 </ul>
@@ -2999,6 +3586,7 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.StyleInjector$1::StyleInjector$1</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.dom.client.StyleInjector::$clinit</li>
+<li>com.google.gwt.dom.client.StyleInjector::inject</li>
 <li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</li>
 <li>com.qwertify.client.Qwertify::$onModuleLoad</li>
 </ul>
@@ -3028,13 +3616,15 @@ Method Dependencies for Initially Live Code
 <li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$checkStreamsNotCrossed</li>
 <li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$edit</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$retainArg</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::$addInvocation</li>
-<li>com.google.gwt.requestfactory.client.impl.AbstractRequest::$using</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestContext::edit</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$ensureMutable</li>
+<li>com.google.gwt.editor.client.impl.AbstractEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.RequestFactoryEditorDelegate::$initialize</li>
+<li>com.google.gwt.requestfactory.client.impl.AbstractRequestFactoryEditorDriver::$edit</li>
 <li>com.qwertify.client.presenter.HomePresenter::revealInParent</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$HomePresenter$_annotation$$none$$</li>
-<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$1::get</li>
 <li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl$WrappedProxy::$delayedBind</li>
 <li>com.qwertify.client.presenter.HomePresenterMyProxyImpl::delayedBind</li>
@@ -3339,6 +3929,7 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.StyleInjector</a>
 <ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.StyleInjector::inject</li>
 <li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</li>
 <li>com.qwertify.client.Qwertify::$onModuleLoad</li>
 </ul>
@@ -3364,8 +3955,16 @@ Method Dependencies for Initially Live Code
 </ul>
 </div>
 <div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.StyleInjector::inject</a>
+<ul class="soyc-call-stack-list">
+<li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</li>
+<li>com.qwertify.client.Qwertify::$onModuleLoad</li>
+</ul>
+</div>
+<div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.dom.client.StyleInjector::schedule</a>
 <ul class="soyc-call-stack-list">
+<li>com.google.gwt.dom.client.StyleInjector::inject</li>
 <li>com.qwertify.client.ui.resources.Resources_default_StaticClientBundleGenerator$1::$ensureInjected</li>
 <li>com.qwertify.client.Qwertify::$onModuleLoad</li>
 </ul>

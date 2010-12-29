@@ -25,7 +25,7 @@
 		Age:
 		<e:ValueBoxEditorDecorator ui:field="age">
 			<e:valuebox>
-				<q:TextBox />
+				<q:IntegerBox />
 			</e:valuebox>
 		</e:ValueBoxEditorDecorator>
 		

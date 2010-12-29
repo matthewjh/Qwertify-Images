@@ -14,13 +14,13 @@ public interface EmployeeProxy extends EntityProxy {
 	
 	String getId();
 	
-	int getAge();
+	Integer getAge();
 	
 	void setName(String name);
 	
 	void setJobTitle(String jobTitle);
 	
-	void setAge(int age);
+	void setAge(Integer age);
 	
 	EntityProxyId<EmployeeProxy> stableId();
 }

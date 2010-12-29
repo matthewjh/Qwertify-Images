@@ -35,7 +35,7 @@ public class Employee {
 	@NotNull
 	@Min(13)
 	@Max(150)
-	private int age;
+	private Integer age;
 
 	public Employee()
 	{
@@ -78,11 +78,11 @@ public class Employee {
 		this.jobTitle = jobTitle;
 	}
 
-	public int getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 	

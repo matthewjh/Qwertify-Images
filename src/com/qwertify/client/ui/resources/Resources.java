@@ -12,8 +12,9 @@ public interface Resources extends ClientBundle {
 	Style style();
 	
 	public interface Style extends CssResource {
+		String inlineBlock();
+		String unselectable();
 		String textbox();
-		String button();
 	}
 	
 	@Source("logo.png")
