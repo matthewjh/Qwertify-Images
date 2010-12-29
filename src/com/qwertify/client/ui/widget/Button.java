@@ -125,6 +125,7 @@ public class Button extends InteractionHandlerComposite
 	@Override
 	public void onKeyDown(KeyDownEvent event) {
 		if (event.getNativeKeyCode() == KeyCodes.KEY_ENTER) {
+			// Simulate a click event
 			NativeEvent evt = Document.get().createClickEvent(1, 0, 0, 0, 0, false,
 			        false, false, false);
 			getElement().dispatchEvent(evt);
