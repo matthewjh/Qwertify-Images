@@ -50,3 +50,7 @@ a:focus {
 	-webkit-user-select: none;
 	user-select: none;
 }
+
+img, .imageWidget {
+	
+}

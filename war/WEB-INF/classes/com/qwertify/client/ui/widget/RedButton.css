@@ -1,0 +1,15 @@
+.baseStyle {
+	color: red;
+	cursor: pointer;
+	padding: 3px 4px;
+	border: solid 1px navy;
+}
+
+.hoverStyle {
+	background-color: red;
+	color: black;
+}
+
+.focusStyle {
+	border: solid 1px black;
+}

@@ -15,6 +15,7 @@ public interface Resources extends ClientBundle {
 		String inlineBlock();
 		String unselectable();
 		String textbox();
+		String imageWidget();
 	}
 	
 	@Source("logo.png")

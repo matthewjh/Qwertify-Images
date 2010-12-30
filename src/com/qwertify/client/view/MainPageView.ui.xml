@@ -1,14 +1,19 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui"
-	xmlns:q="urn:import:com.qwertify.client.ui">
+	xmlns:q="urn:import:com.qwertify.client.ui.widget">
 	
 	<ui:with field='res' type='com.qwertify.client.ui.resources.Resources'/>
 
 	<ui:style>
 		.container {
-			padding-left: 20px;
-			padding-right: 20px;	
+			text-align: left;
+			width: 900px;
+			margin: 0 auto;
+		}
+		
+		.outerContainer {
+			text-align: center;
 		}
 		
 		.homeBar {
@@ -33,6 +38,7 @@
 		   margin-bottom: 10px;
 		   padding-top: 3px;
 		   text-align: left;
+		   display: none;
 		}
 		
 		.navBar ul 
@@ -81,10 +87,12 @@
 	</ui:style>
 	<g:HTMLPanel>
 		<g:HTMLPanel>
-			<div class="{style.homeBar} {style.container}">
-				<a class="{style.logoLink}" href="#">
-					<g:Image resource="{res.logoImage}" altText="Qwertify Logo" />
+			<div class="{style.homeBar} {style.outerContainer}">
+				<div class="{style.container}">
+					<a class="{style.logoLink}" href="#">
+						<q:Image resource="{res.logoImage}" altText="Qwertify Logo" />
 					</a>
+				</div>
 			</div>
 			<div class="{style.navBar} {style.container}">
 				<ul>

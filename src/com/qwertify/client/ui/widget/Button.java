@@ -19,6 +19,7 @@ import com.google.gwt.event.dom.client.MouseOverEvent;
 import com.google.gwt.event.dom.client.MouseOverHandler;
 import com.google.gwt.event.dom.client.MouseUpEvent;
 import com.google.gwt.event.dom.client.MouseUpHandler;
+import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.CssResource;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
@@ -32,34 +33,34 @@ public class Button extends InteractionHandlerComposite
 	interface Binder extends UiBinder<Widget, Button> {
 	}
 	
-	// The CSS rules which we'll need programmatic access to
+	interface Resources extends ClientBundle {
+		@Source(Style.DEFAULT_CSS)
+		Style style();
+	}
+	
 	interface Style extends CssResource {
-		String defaultStyleBase();
-		String defaultStyleHover();
-		String defaultStyleFocus();
-		String defaultStyleActive();
+		String DEFAULT_CSS = "Button.css";
+		
+		String baseStyle();
+		String hoverStyle();
+		String focusStyle();
+		String activeStyle();
 	}
-	
-	public enum Skin {
-		Default
-	}
-	
-	@UiField
-	Style style;
 	
 	@UiField
 	DivElement buttonDiv;
 	
-	private String baseStyle;
-	private String hoverStyle;
-	private String focusStyle;
-	private String activeStyle;
-	
+	@UiField(provided = true)
+	final Resources resources;
+
 	public Button() {
-		this(Skin.Default);
+		this(GWT.<Resources> create(Resources.class));
 	}
 	
-	public Button(Skin skin) {
+	public Button(Resources resources) {
+		this.resources = resources;
+		resources.style().ensureInjected();
+		
 		initWidget(GWT.<Binder> create(Binder.class).createAndBindUi(this));
 		Accessibility.setRole(getElement(), Accessibility.ROLE_BUTTON);
 		getElement().setAttribute("tabindex", "0");
@@ -71,60 +72,47 @@ public class Button extends InteractionHandlerComposite
 		addMouseDownHandler(this);
 		addMouseUpHandler(this);
 		addKeyDownHandler(this);
-
-		setSkin(skin);
 	}
 	
 	public void setLabel(String label) {
 		buttonDiv.setInnerText(label);
 	}
-
-	public void setSkin(Skin skin) {
-		switch (skin) {
-		case Default:
-			baseStyle =  style.defaultStyleBase();
-			hoverStyle = style.defaultStyleHover();
-			focusStyle = style.defaultStyleFocus();
-			activeStyle = style.defaultStyleActive();
-		}
-		
-		buttonDiv.addClassName(baseStyle);
-	}
 	
 	@Override
 	public void onFocus(FocusEvent event) {
-		buttonDiv.addClassName(focusStyle);
+		buttonDiv.addClassName(resources.style().focusStyle());
 	}
 	
 	@Override
 	public void onBlur(BlurEvent event) {
-		buttonDiv.removeClassName(focusStyle);
+		buttonDiv.removeClassName(resources.style().focusStyle());
 	}
 
 	@Override
 	public void onMouseOver(MouseOverEvent event) {
-		buttonDiv.addClassName(hoverStyle);
+		buttonDiv.addClassName(resources.style().hoverStyle());
 	}
 	
 	@Override
 	public void onMouseOut(MouseOutEvent event) {
-		buttonDiv.removeClassName(hoverStyle);
-		buttonDiv.removeClassName(activeStyle);
+		buttonDiv.removeClassName(resources.style().hoverStyle());
+		buttonDiv.removeClassName(resources.style().activeStyle());
 	}
 
 	@Override
 	public void onMouseDown(MouseDownEvent event) {
-		buttonDiv.addClassName(activeStyle);
+		buttonDiv.addClassName(resources.style().activeStyle());
 	}
 	
 	@Override
 	public void onMouseUp(MouseUpEvent event) {
-		buttonDiv.removeClassName(activeStyle);
+		buttonDiv.removeClassName(resources.style().activeStyle());
 	}
 
 	@Override
 	public void onKeyDown(KeyDownEvent event) {
-		if (event.getNativeKeyCode() == KeyCodes.KEY_ENTER) {
+		// If the key was the enter key or the spacebar (keycode 32)
+		if (event.getNativeKeyCode() == KeyCodes.KEY_ENTER || event.getNativeKeyCode() == 32) {
 			// Simulate a click event
 			NativeEvent evt = Document.get().createClickEvent(1, 0, 0, 0, 0, false,
 			        false, false, false);

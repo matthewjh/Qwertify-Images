@@ -56,6 +56,6 @@
 			Curae;</p>
 			
 			<qe:EmployeeEditor ui:field="employeeEditor"></qe:EmployeeEditor>
-			<q:Button ui:field="saveButton" label="Save" />
+			<q:RedButton ui:field="saveButton" label="Save" /> <q:Button ui:field="cancelButton" label="Cancel" />
 	</g:HTMLPanel>
 </ui:UiBinder> 

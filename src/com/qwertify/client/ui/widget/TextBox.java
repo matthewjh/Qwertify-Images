@@ -6,4 +6,8 @@ public class TextBox extends com.google.gwt.user.client.ui.TextBox {
 	public TextBox() {
 		setStylePrimaryName(Resources.INSTANCE.style().textbox());
 	}
+	
+	public void setPlaceholder(String placeholder) {
+		getElement().setAttribute("placeholder", placeholder);
+	}
 }

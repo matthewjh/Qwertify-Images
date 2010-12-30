@@ -2,7 +2,7 @@
 Types potentially sent from browser:
 ====================================
 
-Reachable types computed on: Wed Dec 29 03:47:53 GMT 2010
+Reachable types computed on: Thu Dec 30 04:13:58 GMT 2010
 com.google.gwt.core.client.impl.SerializableThrowable
    Serialization status
       Instantiable
@@ -324,8 +324,8 @@ java.security.GeneralSecurityException
    Serialization status
       Instantiable
    Path
-      'java.security.GeneralSecurityException' is reachable as a supertype of type 'class java.security.NoSuchAlgorithmException'
-      'java.security.NoSuchAlgorithmException' is reachable as a subtype of type 'class java.lang.Throwable'
+      'java.security.GeneralSecurityException' is reachable as a supertype of type 'class java.security.DigestException'
+      'java.security.DigestException' is reachable as a subtype of type 'class java.lang.Throwable'
       'java.lang.Throwable' is reachable from field 'thrown' of type 'java.util.logging.LogRecord'
       'java.util.logging.LogRecord' is reachable as a subtype of type 'class java.util.logging.LogRecord'
       Started from 'java.util.logging.LogRecord'
@@ -401,7 +401,7 @@ long
 Types potentially sent from server:
 ===================================
 
-Reachable types computed on: Wed Dec 29 03:47:53 GMT 2010
+Reachable types computed on: Thu Dec 30 04:13:58 GMT 2010
 com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
    Serialization status
       Instantiable

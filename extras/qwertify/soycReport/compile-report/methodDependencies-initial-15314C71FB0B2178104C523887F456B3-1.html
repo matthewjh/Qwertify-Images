@@ -48,16 +48,42 @@ Method Dependencies for Initially Live Code
 <div class='main'>
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.user.client.ui.impl.ClippedImageImpl</a>
 <ul class="soyc-call-stack-list">
-<li>com.google.gwt.user.client.ui.impl.ClippedImageImpl::$createStructure</li>
-<li>com.google.gwt.user.client.ui.Image$ClippedState::Image$ClippedState</li>
-<li>com.google.gwt.user.client.ui.Image::Image</li>
+<li>com.google.gwt.user.client.ui.Image$ClippedState::setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image$UnclippedState::setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setResource</li>
 <li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
 <li>com.qwertify.client.view.MainPageView::MainPageView</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
+<li>com.qwertify.client.Qwertify::$$init</li>
+<li>com.qwertify.client.Qwertify::Qwertify</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.user.client.ui.impl.ClippedImageImpl::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.user.client.ui.impl.ClippedImageImpl::$adjust</li>
+<li>com.google.gwt.user.client.ui.Image$ClippedState::setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image$UnclippedState::setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setResource</li>
+<li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
+<li>com.qwertify.client.view.MainPageView::MainPageView</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
+<li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
+<li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
@@ -68,14 +94,18 @@ Method Dependencies for Initially Live Code
 <a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.google.gwt.user.client.ui.impl.ClippedImageImpl::$createStructure</a>
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.user.client.ui.Image$ClippedState::Image$ClippedState</li>
-<li>com.google.gwt.user.client.ui.Image::Image</li>
+<li>com.google.gwt.user.client.ui.Image$UnclippedState::setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setResource</li>
 <li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
 <li>com.qwertify.client.view.MainPageView::MainPageView</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>
@@ -87,14 +117,18 @@ Method Dependencies for Initially Live Code
 <ul class="soyc-call-stack-list">
 <li>com.google.gwt.user.client.ui.impl.ClippedImageImpl::$createStructure</li>
 <li>com.google.gwt.user.client.ui.Image$ClippedState::Image$ClippedState</li>
-<li>com.google.gwt.user.client.ui.Image::Image</li>
+<li>com.google.gwt.user.client.ui.Image$UnclippedState::setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setUrlAndVisibleRect</li>
+<li>com.google.gwt.user.client.ui.Image::$setResource</li>
 <li>com.qwertify.client.view.MainPageView_MainPageViewUiBinderImpl::$createAndBindUi</li>
 <li>com.qwertify.client.view.MainPageView::MainPageView</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$view$MainPageView$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$get_Key$type$com$qwertify$client$presenter$MainPagePresenter$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl$4::get</li>
+<li>com.google.inject.Provider::$clinit</li>
 <li>com.qwertify.client.presenter.MainPagePresenterMyProxyImpl::delayedBind</li>
+<li>com.gwtplatform.mvp.client.DelayedBind::$clinit</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::$create_Key$type$com$qwertify$client$presenter$MainPagePresenter$MyProxy$_annotation$$none$$</li>
 <li>com.qwertify.client.gin.ClientGinjectorImpl::ClientGinjectorImpl</li>
 <li>com.qwertify.client.Qwertify::$$init</li>

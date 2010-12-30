@@ -1,0 +1,20 @@
+.baseStyle {
+	color: gray;
+	cursor: pointer;
+	padding: 3px 4px;
+	border: solid 1px navy;
+}
+
+.hoverStyle {
+	background-color: gray;
+	color: black;
+}
+
+.focusStyle {
+	border: solid 1px black;
+}
+
+.activeStyle {
+	background-color: navy !important;
+	color: white !important;	
+}
