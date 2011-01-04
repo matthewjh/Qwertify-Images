@@ -20,6 +20,11 @@ import com.qwertify.shared.QwertifyRequestFactory;
 import com.qwertify.shared.dto.proxy.EmployeeProxy;
 import com.qwertify.shared.request.EmployeeRequest;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class HomePresenter extends
 	Presenter<HomePresenter.MyView, HomePresenter.MyProxy> {
 	

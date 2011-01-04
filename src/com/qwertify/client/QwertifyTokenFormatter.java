@@ -9,6 +9,12 @@ import com.google.inject.Inject;
 import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.proxy.TokenFormatException;
 import com.gwtplatform.mvp.client.proxy.TokenFormatter;
+
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public final class QwertifyTokenFormatter implements TokenFormatter {
 
 	protected static final String DEFAULT_TOKEN_PREFIX = "!/";

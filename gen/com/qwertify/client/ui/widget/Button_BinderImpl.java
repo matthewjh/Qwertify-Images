@@ -10,20 +10,41 @@ public class Button_BinderImpl implements UiBinder<com.google.gwt.user.client.ui
   public com.google.gwt.user.client.ui.Widget createAndBindUi(final com.qwertify.client.ui.widget.Button owner) {
 
     com.qwertify.client.ui.widget.Button_BinderImpl_GenBundle clientBundleFieldNameUnlikelyToCollideWithUserSpecifiedFieldOkay = (com.qwertify.client.ui.widget.Button_BinderImpl_GenBundle) GWT.create(com.qwertify.client.ui.widget.Button_BinderImpl_GenBundle.class);
-    com.qwertify.client.ui.resources.Resources global = (com.qwertify.client.ui.resources.Resources) GWT.create(com.qwertify.client.ui.resources.Resources.class);
-    com.qwertify.client.ui.widget.Button.Resources resources = owner.resources;
-    com.google.gwt.dom.client.DivElement buttonDiv = null;
+    com.qwertify.client.ui.resources.GlobalResources global = (com.qwertify.client.ui.resources.GlobalResources) GWT.create(com.qwertify.client.ui.resources.GlobalResources.class);
+    com.qwertify.client.ui.widget.Button.LocalResources resources = owner.resources;
+    com.google.gwt.dom.client.SpanElement buttonLeftImagePlaceholder = null;
     java.lang.String domId0 = com.google.gwt.dom.client.Document.get().createUniqueId();
-    com.google.gwt.user.client.ui.HTMLPanel f_HTMLPanel1 = new com.google.gwt.user.client.ui.HTMLPanel("span", "<div class='" + "" + resources.style().baseStyle() + " " + global.style().inlineBlock() + " " + global.style().unselectable() + "" + "' id='" + domId0 + "' unselectable='on'></div>");
+    java.lang.String domId1 = com.google.gwt.dom.client.Document.get().createUniqueId();
+    com.qwertify.client.ui.widget.Image buttonLeftImage = (com.qwertify.client.ui.widget.Image) GWT.create(com.qwertify.client.ui.widget.Image.class);
+    com.google.gwt.dom.client.SpanElement buttonLabelSpan = null;
+    java.lang.String domId2 = com.google.gwt.dom.client.Document.get().createUniqueId();
+    com.google.gwt.dom.client.SpanElement buttonRightImagePlaceholder = null;
+    java.lang.String domId3 = com.google.gwt.dom.client.Document.get().createUniqueId();
+    java.lang.String domId4 = com.google.gwt.dom.client.Document.get().createUniqueId();
+    com.qwertify.client.ui.widget.Image buttonRightImage = (com.qwertify.client.ui.widget.Image) GWT.create(com.qwertify.client.ui.widget.Image.class);
+    com.google.gwt.user.client.ui.HTMLPanel f_HTMLPanel1 = new com.google.gwt.user.client.ui.HTMLPanel("button", "<span class='" + "" + resources.style().leftImagePlaceholderStyle() + " " + global.style().floatLeft() + " " + global.style().hidden() + " " + global.style().unselectable() + "" + "' id='" + domId0 + "'> <span id='" + domId1 + "'></span> </span> <span class='" + "" + global.style().unselectable() + "" + "' id='" + domId2 + "'></span> <span class='" + "" + global.style().inlineBlock() + " " + global.style().hidden() + " " + resources.style().rightImagePlaceholderStyle() + " " + global.style().unselectable() + "" + "' id='" + domId3 + "'> <span id='" + domId4 + "'></span> </span>");
 
+    f_HTMLPanel1.setStyleName("" + resources.style().buttonBaseStyle() + " " + resources.style().buttonEnabledStyle() + " " + global.style().unselectable() + "");
 
     UiBinderUtil.TempAttachment attachRecord0 = UiBinderUtil.attachToDom(f_HTMLPanel1.getElement());
-    buttonDiv = com.google.gwt.dom.client.Document.get().getElementById(domId0).cast();
-    buttonDiv.removeAttribute("id");
+    buttonLeftImagePlaceholder = com.google.gwt.dom.client.Document.get().getElementById(domId0).cast();
+    buttonLeftImagePlaceholder.removeAttribute("id");
+    com.google.gwt.user.client.Element domId1Element = com.google.gwt.dom.client.Document.get().getElementById(domId1).cast();
+    buttonLabelSpan = com.google.gwt.dom.client.Document.get().getElementById(domId2).cast();
+    buttonLabelSpan.removeAttribute("id");
+    buttonRightImagePlaceholder = com.google.gwt.dom.client.Document.get().getElementById(domId3).cast();
+    buttonRightImagePlaceholder.removeAttribute("id");
+    com.google.gwt.user.client.Element domId4Element = com.google.gwt.dom.client.Document.get().getElementById(domId4).cast();
     attachRecord0.detach();
+    f_HTMLPanel1.addAndReplaceElement(buttonLeftImage, domId1Element);
+    f_HTMLPanel1.addAndReplaceElement(buttonRightImage, domId4Element);
 
 
-    owner.buttonDiv = buttonDiv;
+    owner.buttonLabelSpan = buttonLabelSpan;
+    owner.buttonLeftImage = buttonLeftImage;
+    owner.buttonLeftImagePlaceholder = buttonLeftImagePlaceholder;
+    owner.buttonRightImage = buttonRightImage;
+    owner.buttonRightImagePlaceholder = buttonRightImagePlaceholder;
 
     return f_HTMLPanel1;
   }

@@ -1,7 +1,3 @@
-* {
-	outline: none;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -18,17 +14,9 @@ a:hover {
     text-decoration: underline;
 }
 
-
-a:active {
-	outline: none;
-}
-
-a:focus {
-	-moz-outline-style: none;
-}
-
 .textbox {
-	border: solid 1px gray;
+	border: solid 1px #8493a7;
+	padding: 3px;
 }
 
 .inlineBlock {
@@ -53,4 +41,20 @@ a:focus {
 
 img, .imageWidget {
 	
+}
+
+.floatLeft {
+	float: left;	
+}
+
+.floatRight {
+	float: right;	
+}
+
+.hidden {
+	display: none;
+}
+
+.outlineNone {
+	outline: none;
 }

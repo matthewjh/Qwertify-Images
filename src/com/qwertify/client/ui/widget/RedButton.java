@@ -2,10 +2,15 @@ package com.qwertify.client.ui.widget;
 
 import com.google.gwt.core.client.GWT;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class RedButton extends Button {
 	
-	interface Resources extends Button.Resources {
-		@Source({Style.DEFAULT_CSS, "RedButton.css"})
+	interface LocalResources extends Button.LocalResources {
+		@Source({Style.DEFAULT_CSS, "css/RedButton.css"})
 		Style style();
 	}
 	
@@ -13,6 +18,6 @@ public class RedButton extends Button {
 	}
 	
 	public RedButton() {
-		super(GWT.<Resources> create(Resources.class));
+		super(GWT.<LocalResources> create(LocalResources.class));
 	}
 }

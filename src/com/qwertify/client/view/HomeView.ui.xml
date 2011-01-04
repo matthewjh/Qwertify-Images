@@ -3,6 +3,9 @@
 	xmlns:g="urn:import:com.google.gwt.user.client.ui"
 	xmlns:qe="urn:import:com.qwertify.client.editor"
 	xmlns:q="urn:import:com.qwertify.client.ui.widget">
+	
+	<ui:with field='global' type='com.qwertify.client.ui.resources.GlobalResources'/>
+	
 	<g:HTMLPanel>
 		<h1>Home page</h1>
 		<p>This is the home page for this demonstration. You'll always get
@@ -56,6 +59,7 @@
 			Curae;</p>
 			
 			<qe:EmployeeEditor ui:field="employeeEditor"></qe:EmployeeEditor>
-			<q:RedButton ui:field="saveButton" label="Save" /> <q:Button ui:field="cancelButton" label="Cancel" />
+			<q:Button ui:field="saveButton">Save</q:Button>
+			<q:ToggleButton ui:field="cancelButton" leftImage="{global.crossIcon}" rightImage="{global.crossIcon}">Cancel</q:ToggleButton>
 	</g:HTMLPanel>
 </ui:UiBinder> 

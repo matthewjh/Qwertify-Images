@@ -3,7 +3,7 @@
 	xmlns:g="urn:import:com.google.gwt.user.client.ui"
 	xmlns:q="urn:import:com.qwertify.client.ui.widget">
 	
-	<ui:with field='res' type='com.qwertify.client.ui.resources.Resources'/>
+	<ui:with field='res' type='com.qwertify.client.ui.resources.GlobalResources'/>
 
 	<ui:style>
 		.container {

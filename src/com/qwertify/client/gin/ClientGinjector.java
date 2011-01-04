@@ -11,6 +11,12 @@ import com.qwertify.client.presenter.ContactPresenter;
 import com.qwertify.client.presenter.HomePresenter;
 import com.qwertify.client.presenter.MainPagePresenter;
 
+/**
+ * 
+ * @author Matthew Hill
+ *
+ */
+
 @GinModules({ClientModule.class})
 public interface ClientGinjector extends Ginjector {
 	Provider<AboutUsPresenter> getAboutUsPresenter();

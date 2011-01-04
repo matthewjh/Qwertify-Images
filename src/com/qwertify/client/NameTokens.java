@@ -1,5 +1,10 @@
 package com.qwertify.client;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class NameTokens {
 	public static final String aboutUsPage = "aboutUsPage";
 
@@ -17,6 +22,6 @@ public class NameTokens {
 
 	public static String getHomePage() {
 		return homePage;
+		
 	}
-
 }

@@ -3,11 +3,16 @@
 	xmlns:g="urn:import:com.google.gwt.user.client.ui"
 	xmlns:q="urn:import:com.qwertify.client.ui.widget" xmlns:d="urn:import:com.google.gwt.dom.client">
 	
-	<ui:with field='global' type='com.qwertify.client.ui.resources.Resources'/>
-	<ui:with field='resources' type='com.qwertify.client.ui.widget.Button.Resources'/>
-	
-	<g:HTMLPanel tag="span">
-		<div ui:field="buttonDiv" class="{resources.style.baseStyle} {global.style.inlineBlock} {global.style.unselectable}" 
-				unselectable="on"></div>
+	<ui:with field='global' type='com.qwertify.client.ui.resources.GlobalResources'/>
+	<ui:with field='resources' type='com.qwertify.client.ui.widget.Button.LocalResources'/>
+
+	<g:HTMLPanel tag="button" styleName="{resources.style.buttonBaseStyle} {resources.style.buttonEnabledStyle} {global.style.unselectable}">
+		<span ui:field="buttonLeftImagePlaceholder" class="{resources.style.leftImagePlaceholderStyle} {global.style.floatLeft} {global.style.hidden} {global.style.unselectable}">
+			<q:Image ui:field="buttonLeftImage" />
+		</span>
+		<span ui:field="buttonLabelSpan" class="{global.style.unselectable}"></span>
+		<span ui:field="buttonRightImagePlaceholder" class="{global.style.inlineBlock} {global.style.hidden} {resources.style.rightImagePlaceholderStyle} {global.style.unselectable}">
+			<q:Image ui:field="buttonRightImage" />
+		</span>
 	</g:HTMLPanel>
 </ui:UiBinder> 

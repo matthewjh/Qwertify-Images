@@ -9,6 +9,11 @@ import com.google.gwt.requestfactory.shared.Service;
 import com.qwertify.server.domain.Employee;
 import com.qwertify.shared.dto.proxy.EmployeeProxy;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 @Service(Employee.class)
 public interface EmployeeRequest extends RequestContext {
 

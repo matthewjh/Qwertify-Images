@@ -5,7 +5,7 @@
 	xmlns:e="urn:import:com.google.gwt.editor.ui.client"
 	xmlns:qe="urn:import:com.qwertify.client.editor">
 	
-	<ui:with field='res' type='com.qwertify.client.ui.resources.Resources'/>
+	<ui:with field='res' type='com.qwertify.client.ui.resources.GlobalResources'/>
 
 	<ui:style>
 	</ui:style>

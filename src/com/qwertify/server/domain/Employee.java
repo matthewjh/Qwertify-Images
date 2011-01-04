@@ -16,6 +16,12 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.qwertify.server.guice.ServerModule;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
+
 @Entity
 public class Employee {
 	

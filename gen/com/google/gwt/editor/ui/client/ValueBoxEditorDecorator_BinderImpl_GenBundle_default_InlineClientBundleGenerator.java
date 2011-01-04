@@ -22,13 +22,13 @@ public class ValueBoxEditorDecorator_BinderImpl_GenBundle_default_InlineClientBu
       return "style";
     }
     public String getText() {
-      return com.google.gwt.i18n.client.LocaleInfo.getCurrentLocale().isRTL() ? ((".Q2EG{display:" + ("inline")  + ";}.Q2FG{display:" + ("none")  + ";white-space:" + ("pre")  + ";}")) : ((".Q2EG{display:" + ("inline")  + ";}.Q2FG{display:" + ("none")  + ";white-space:" + ("pre")  + ";}"));
+      return com.google.gwt.i18n.client.LocaleInfo.getCurrentLocale().isRTL() ? ((".Q2FH{display:" + ("inline")  + ";}.Q2GH{display:" + ("none")  + ";white-space:" + ("pre")  + ";}")) : ((".Q2FH{display:" + ("inline")  + ";}.Q2GH{display:" + ("none")  + ";white-space:" + ("pre")  + ";}"));
     }
     public java.lang.String contents(){
-      return "Q2EG";
+      return "Q2FH";
     }
     public java.lang.String errorLabel(){
-      return "Q2FG";
+      return "Q2GH";
     }
   }
   ;

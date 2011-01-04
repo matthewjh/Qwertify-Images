@@ -6,6 +6,11 @@ import com.google.gwt.user.client.ui.Widget;
 import com.gwtplatform.mvp.client.ViewImpl;
 import com.qwertify.client.presenter.ContactPresenter.MyView;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class ContactView extends ViewImpl implements MyView {
 	interface ContactViewUiBinder extends UiBinder<Widget, ContactView> {
 	}

@@ -25,6 +25,11 @@ import com.qwertify.client.view.HomeView;
 import com.qwertify.client.view.MainPageView;
 import com.qwertify.shared.QwertifyRequestFactory;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class ClientModule extends AbstractPresenterModule {
 	@Override
 	protected void configure() {

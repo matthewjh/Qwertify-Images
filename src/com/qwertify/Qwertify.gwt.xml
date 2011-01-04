@@ -6,7 +6,6 @@
   <inherits name="com.google.gwt.inject.Inject" />
   <inherits name="com.google.gwt.requestfactory.RequestFactory" />
   <inherits name="com.google.gwt.editor.Editor" />
-  
   <inherits name="com.gwtplatform.mvp.Mvp" />
 
   <!-- Specify the app entry point class.                         -->
@@ -20,4 +19,8 @@
   <set-configuration-property name="gin.ginjector" value="com.qwertify.client.gin.ClientGinjector" />
 	
   <set-configuration-property name="CssResource.obfuscationPrefix" value="Q2" /> 
+  
+  <set-property name="ClientBundle.enableInlining" value="false" />
+  
+  <add-linker name="xs" />
 </module>

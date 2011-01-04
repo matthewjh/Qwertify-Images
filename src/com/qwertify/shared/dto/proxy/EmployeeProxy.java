@@ -5,6 +5,11 @@ import com.google.gwt.requestfactory.shared.EntityProxyId;
 import com.google.gwt.requestfactory.shared.ProxyFor;
 import com.qwertify.server.domain.Employee;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 @ProxyFor(Employee.class)
 public interface EmployeeProxy extends EntityProxy {
 	

@@ -8,6 +8,11 @@ import com.google.inject.Singleton;
 import com.mongodb.Mongo;
 import com.qwertify.server.domain.Employee;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class ServerModule extends AbstractModule {
 
 	@Override

@@ -9,6 +9,11 @@ import com.gwtplatform.mvp.client.ViewImpl;
 import com.qwertify.client.presenter.MainPagePresenter;
 import com.qwertify.client.presenter.MainPagePresenter.MyView;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class MainPageView extends ViewImpl implements MyView {
 	interface MainPageViewUiBinder extends UiBinder<Widget, MainPageView> {
 	}

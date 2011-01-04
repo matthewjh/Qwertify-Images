@@ -7,6 +7,11 @@ import com.gwtplatform.mvp.client.proxy.PlaceRequest;
 import com.gwtplatform.mvp.client.proxy.TokenFormatter;
 import com.qwertify.client.gin.DefaultPlace;
 
+/***
+ * 
+ * @author Matthew Hill
+ *
+ */
 public class QwertifyPlaceManager extends PlaceManagerImpl {
 	private final PlaceRequest defaultPlaceRequest;
 
